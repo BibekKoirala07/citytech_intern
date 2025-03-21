@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4};
+        int[] arr = {7,6,5,4,3,2,1};
         int totalInversionOfArray = countInversion(arr);
-        System.out.println("The total Inversion of given Array is " + totalInversionOfArray);
+        System.out.println("The total Inversion of using normal method given Array is " + totalInversionOfArray);
     }
     
     public static int countInversion(int[] arr) {
